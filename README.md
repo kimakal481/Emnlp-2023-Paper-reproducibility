@@ -18,28 +18,23 @@ PyTorch: 2.0+ with GPU support
 Step 1: Clone the ALCE Repository
 Open a terminal and run:
 
-bash
-Copy
-Edit
-git clone https://github.com/princeton-nlp/ALCE.git
+!git clone https://github.com/princeton-nlp/ALCE.git
 cd ALCE
+
 Step 2: Install Required Dependencies
 Install necessary Python libraries using:
 
-bash
-Copy
-Edit
-pip install torch transformers accelerate datasets sentencepiece evaluate rouge-score
+!pip install torch transformers accelerate datasets sentencepiece evaluate rouge-score
+
 Step 3: Download the Dataset
 Run the script to fetch the ALCE datasets:
 
-bash
-Copy
-Edit
-bash download_data.sh
-3. Model Setup
-Step 4: Load Mistral-7B-v0.1 Model
-Modify run.py to use Mistral-7B-v0.1 instead of OpenAI’s API-based models.
+!bash download_data.sh
+
+Step 4:Model Setup
+Load Mistral-7B-v0.1 Model
+
+!python run.py to use Mistral-7B-v0.1 instead of OpenAI’s API-based models.
 
 In Python, initialize the model:
 
