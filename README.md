@@ -93,8 +93,10 @@ F1 Score (QA-F1)	21.91
 Citation Recall	17.84
 Citation Precision	20.38
 These results indicate that Mistral-7B-v0.1 produces weaker citations than GPT-4 but still demonstrates improvement when tuned with better parameters.
+![image](https://github.com/user-attachments/assets/42d5332b-0b25-48e8-ac85-25bae318ae78)
 
-8. Troubleshooting
+
+9. Troubleshooting
 Common Errors & Fixes
 CUDA Out of Memory Error
 Reduce batch size in run.py
@@ -104,8 +106,9 @@ Use a better GPU
 Reduce dataset size for testing
 Token Truncation Issues
 Modify run.py to adjust max token size
-9. Conclusion
+10. Conclusion
 This guide provides a reproducible pipeline to run Mistral-7B-v0.1 for citation-based text generation using the ALCE benchmark. While results are lower than OpenAI’s models, optimizations in retrieval strategy and token management can significantly enhance performance.
+
 
 For further improvements:
 
